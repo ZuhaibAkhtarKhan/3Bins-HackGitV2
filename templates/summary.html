@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<h1>Usage Summary</h1>
+
+<div class="summary-box">
+    <p>Total Signals: {{ total }}</p>
+
+    <div class="metric">
+        <h3>Plastic</h3>
+        <p>{{ counts.plastic }} ({{ percentages.plastic }}%)</p>
+    </div>
+
+    <div class="metric">
+        <h3>Paper</h3>
+        <p>{{ counts.paper }} ({{ percentages.paper }}%)</p>
+    </div>
+
+    <div class="metric">
+        <h3>Metal</h3>
+        <p>{{ counts.metal }} ({{ percentages.metal }}%)</p>
+    </div>
+</div>
+
+<a href="/">Back</a>
+
+</body>
+</html>

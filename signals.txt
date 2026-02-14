@@ -1,0 +1,6 @@
+metal
+paper
+plastic
+metal
+paper
+plastic
