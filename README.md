@@ -1,6 +1,10 @@
 3bins ♻️🤖
 An AI Smart Bin aimed at solving recycling contamination.
 
+
+https://github.com/user-attachments/assets/1182e42d-5c4d-4108-94bc-22e89d2f365d
+
+
 This project uses computer vision to automatically detect and sort waste items into six distinct categories: cardboards, Plastic, metal, glass, paper and Biodegradable. This system integrates a custom-trained vision model with a physical control system to ensure only the correct bin opens.
 
 🚀 Key Features
